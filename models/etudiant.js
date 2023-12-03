@@ -10,7 +10,8 @@ const etudiantSchema = new Schema({
     motdepasse:{type: String, required: true},
     numTel:{type: String,required: true},
     userType:{type: String,required: true},
-    addressEtu:{type: String,required: true}
+    addressEtu:{type: String,required: true},
+    historiqueStage:[[{type: String,required: true}]]
 
 });
 
